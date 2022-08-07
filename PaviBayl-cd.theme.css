@@ -42,10 +42,11 @@ body::after {
     content: "";
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: left top;
     z-index: -100;
 }
 .theme-dark .container-2cd8Mz {
